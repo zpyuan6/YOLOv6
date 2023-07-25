@@ -10,6 +10,7 @@ import torch
 import torch.distributed as dist
 import sys
 import datetime
+# os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
 ROOT = os.getcwd()
 if str(ROOT) not in sys.path:
